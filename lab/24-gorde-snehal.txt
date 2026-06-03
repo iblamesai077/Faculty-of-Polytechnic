@@ -21,7 +21,10 @@ check(a)
 check(b)
 check(c)
 #problem5
-[1, 2, 3, 4, 5, 6]
-pop(4) → [1, 2, 3, 4, 6]
-pop(2) → [1, 2, 4, 6]
-pop(0) → [2, 4, 6]
+l = [1, 2, 3, 4, 5, 6]
+
+l.pop(0)
+l.pop(1)
+l.pop(2)
+
+ print(l)
