@@ -34,5 +34,32 @@ c=19
 print("a",div_3(a))
 print("b",div_3(b))
 print("c",div_3(c))
+
+#problem 4
+def print_elements(lst):
+    for item in lst:
+        print(item)
+
+d = [1, 2, 3]
+print_elements(d)
+
+#problem 5
+
+l=[1,2,3,4,5,6]
+
+l.pop(0)
+l.pop(1)
+l.pop(3)
+
+print(l)
+
+#problem 6
+l=[1,2,3,4,5,6]
+
+l.pop(4)
+l.pop(2)
+l.pop(0)
+
+print(l)
             
         
